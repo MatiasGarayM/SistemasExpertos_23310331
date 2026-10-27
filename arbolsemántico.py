@@ -413,8 +413,8 @@ EJEMPLOS = {
 
 def main():
     st.set_page_config(page_title="Tableros semánticos", page_icon="🌳", layout="wide")
-    st.title(" Analizador proposicional y tableros semánticos")
-    st.caption("Escribe una base de conocimiento en español (una frase por línea) "
+    st.title(" Inferenciador")
+    st.caption("Escribe una base de conocimiento (una frase por línea) "
                "y obtén su traducción a lógica proposicional, el tablero y los modelos.")
 
     # --- barra lateral: entrada ---
